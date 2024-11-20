@@ -7,7 +7,7 @@
 
   "repository": {
     "type": "git",
-    "url": "git@github.com:billypon/bunyan-pretty.git"
+    "url": "git@github.com:billypon/bunyan-prettify.git"
   },
   "engines": ["node >=0.8.0"],
   "keywords": ["log", "logging", "console", "bunyan", "development", "stream"],
@@ -24,5 +24,9 @@
   "scripts": {
     "test": "make test",
     "travis-cov": { "threshold": 70 }
-  }
+  },
+
+  "files": [
+    "lib"
+  ]
 }
